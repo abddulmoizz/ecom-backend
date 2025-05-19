@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_product_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "metaDescription": {
+      "type": "blocks"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "openGraphTitle": {
+      "type": "text"
+    },
+    "openGraphDescription": {
+      "type": "text"
+    },
+    "openGraphImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
