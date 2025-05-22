@@ -435,6 +435,7 @@ export interface ApiCatagoryCatagory extends Struct.CollectionTypeSchema {
 export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
   collectionName: 'galleries';
   info: {
+    description: '';
     displayName: 'Gallery';
     pluralName: 'galleries';
     singularName: 'gallery';
